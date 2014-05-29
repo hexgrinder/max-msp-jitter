@@ -11,7 +11,7 @@ an interrupt service request handler on pin INT0.
 the corresponding LED sequence on PORT B based on the character 
 received.
 
-@author hexgrinder
+@author Michael Layman
 */
 
 #include <avr/interrupt.h>   // Macro ISR()
