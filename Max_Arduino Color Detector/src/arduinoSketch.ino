@@ -5,7 +5,7 @@ Functional Overview:
 
 >> Sends a message on the transmit buffer indicating that the 
 ON / OFF switch has been toggled.  This is implemented using
-an interrupt service request handler on pin INT0.
+an interrupt request handler on pin INT0.
 
 >> Receives character messages from the Serial buffer.  Loads 
 the corresponding LED sequence on PORT B based on the character 
